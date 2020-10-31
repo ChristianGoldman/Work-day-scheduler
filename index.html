@@ -26,68 +26,113 @@
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead">"current date"</p>
+      <p id="currentDay" class="lead"></p>
+      <h1>Be sure to save entered task's one at a time!</h1>
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
       <div class="row">
         <div class="hour" id="9am">9am</div>
-        <input type="text" class="description present" id="9notes"></input>
-        <button type="submit" value="submit" class="saveBtn"></button>
+        <textarea class="description" id="9amtext"></textarea>
+        <button
+          type="submit"
+          value="submit"
+          class="saveBtn"
+          id="saveBtn9"
+        ></button>
       </div>
 
       <div class="row">
         <div class="hour" id="10am">10am</div>
-        <input type="text" class="description present" id="10notes"></input>
-        <button type="submit" value="submit" class="saveBtn"></button>
+        <textarea type="text" class="description" id="10amtext"></textarea>
+        <button
+          type="submit"
+          value="submit"
+          class="saveBtn"
+          id="saveBtn10"
+        ></button>
       </div>
 
       <div class="row">
         <div class="hour" id="11am">11am</div>
-        <input type="text" class="description present" id="11notes"></input>
-        <button type="submit" value="submit" class="saveBtn"></button>
+        <textarea type="text" class="description" id="11amtext"></textarea>
+        <button
+          type="submit"
+          value="submit"
+          class="saveBtn"
+          id="saveBtn11"
+        ></button>
       </div>
 
       <div class="row">
         <div class="hour" id="12pm">12pm</div>
-        <input type="text" class="description present" id="12notes"></input>
-        <button type="submit" value="submit" class="saveBtn"></button>
+        <textarea type="text" class="description" id="12pmtext"></textarea>
+        <button
+          type="submit"
+          value="submit"
+          class="saveBtn"
+          id="saveBtn12"
+        ></button>
       </div>
 
       <div class="row">
         <div class="hour" id="1pm">1pm</div>
-        <input type="text" class="description present" id="1notes"></input>
-        <button type="submit" value="submit" class="saveBtn"></button>
+        <textarea type="text" class="description" id="1pmtext"></textarea>
+        <button
+          type="submit"
+          value="submit"
+          class="saveBtn"
+          id="saveBtn1"
+        ></button>
       </div>
 
       <div class="row">
         <div class="hour" id="2pm">2pm</div>
-        <input type="text" class="description present" id="2notes"></input>
-        <button type="submit" value="submit" class="saveBtn"></button>
+        <textarea type="text" class="description" id="2pmtext"></textarea>
+        <button
+          type="submit"
+          value="submit"
+          class="saveBtn"
+          id="saveBtn2"
+        ></button>
       </div>
 
       <div class="row">
         <div class="hour" id="3pm">3pm</div>
-        <input type="text" class="description present" id="3notes"></input>
-        <button type="submit" value="submit" class="saveBtn"></button>
+        <textarea type="text" class="description" id="3pmtext"></textarea>
+        <button
+          type="submit"
+          value="submit"
+          class="saveBtn"
+          id="saveBtn3"
+        ></button>
       </div>
 
       <div class="row">
         <div class="hour" id="4pm">4pm</div>
-        <input type="text" class="description present" id="4notes"></input>
-        <button type="submit" value="submit" class="saveBtn"></button>
+        <textarea type="text" class="description" id="4pmtext"></textarea>
+        <button
+          type="submit"
+          value="submit"
+          class="saveBtn"
+          id="saveBtn4"
+        ></button>
       </div>
 
       <div class="row">
         <div class="hour" id="5pm">5pm</div>
-        <input type="text" class="description present" id="5notes"></input>
-        <button type="submit" value="submit" class="saveBtn"></button>
+        <textarea type="text" class="description" id="5pmtext"></textarea>
+        <button
+          type="submit"
+          value="submit"
+          class="saveBtn"
+          id="saveBtn5"
+        ></button>
       </div>
     </div>
 
-    <script src="assets/script.js"></script>
-    <!-- <script src="assets/lib/moment/moment.min.js"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/script.js"></script>
   </body>
 </html>
